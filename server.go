@@ -550,5 +550,5 @@ func debug(message string, fmtArgs ...interface{}) {
 	if message[:len(message)-1] != "\n" {
 		message += "\n"
 	}
-	fmt.Fprintf(os.Stderr, message, fmtArgs...)
+	// fmt.Fprintf(os.Stderr, message, fmtArgs...)
 }
